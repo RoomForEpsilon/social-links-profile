@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    /* outline: solid lightblue; */
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /*Didn't do anything*/
+    outline: solid white;
+    height: 100vh;
+    color: white;
+    font-family: Inter, sans-serif;
+}
+
+.social-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    max-width: 355px;
+    width: calc(100% * 327/375);
+    background-color: hsl(0,0%, 12%);
+    /* outline: solid red; */
+}
+
+.social-card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+}
+
+.card-image {
+    border-radius: 50%;
+    width: 35%;
+    margin: 1rem;
+}
+
+
+.location {
+    color: hsl(75, 94%, 57%);
+    /* outline: dashed palevioletred; */
+    padding: .5rem;
+}
+
+.tagline {
+    font-size: calc(1rem * (14/16));
+    font-weight: 400;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    /* outline: solid red; */
+    width: 90%;
+}
+
+a {
+    color: lightgray;
+    background-color: hsl(75, 0%, 20%);
+    text-decoration: none;
+
+}
+
+nav a {
+    flex-grow: 1;
+    padding: 1rem 0;
+    margin: .5rem 0;
+    gap: 1rem;
+    /* outline: solid yellow; */
+    text-align: center;
+    border-radius: .5rem;
+    color: white;
+}
+
+nav:last-child {
+    margin-bottom: 1rem;
+}
+
+.textPreset1 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.textPreset2 {
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: calc(1rem * (14.0/16));
+    line-height: 1.5;
+}
+
+.textPreset2Bold {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: calc(1rem * (14.0/16));
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 1rem;
+}
+
+/* .location {
+    font-size: 15px;
+    font-weight: 600;
+
+} */
