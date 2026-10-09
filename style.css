@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* outline: solid lightblue; */
     margin: 0px;
 }
 
@@ -9,30 +8,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /*Didn't do anything*/
-    outline: solid white;
-    height: 100vh;
+    justify-content: center; 
     color: white;
     font-family: Inter, sans-serif;
+    min-height: 100vh;
 }
 
 .social-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* color: white; */
+    border-radius: 20px;
     max-width: 355px;
     width: calc(100% * 327/375);
     background-color: hsl(0,0%, 12%);
-    /* outline: solid red; */
 }
 
 .social-card-header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: 400;
 }
 
 .card-image {
@@ -44,20 +39,17 @@ body {
 
 .location {
     color: hsl(75, 94%, 57%);
-    /* outline: dashed palevioletred; */
     padding: .5rem;
 }
 
 .tagline {
     font-size: calc(1rem * (14/16));
-    font-weight: 400;
     padding: 1rem;
 }
 
 nav {
     display: flex;
     flex-direction: column;
-    /* outline: solid red; */
     width: 90%;
 }
 
@@ -69,11 +61,8 @@ a {
 }
 
 nav a {
-    flex-grow: 1;
     padding: 1rem 0;
     margin: .5rem 0;
-    gap: 1rem;
-    /* outline: solid yellow; */
     text-align: center;
     border-radius: .5rem;
     color: white;
@@ -112,5 +101,5 @@ footer {
 nav a:hover,
 nav a:focus-visible {
     background-color:  hsl(75, 94%, 57%);;
-    color: black;
+    color: hsl(0, 0%, 20%);
 }
