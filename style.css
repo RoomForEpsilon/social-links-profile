@@ -53,17 +53,18 @@ nav {
     width: 90%;
 }
 
-a {
+.attribution a {
     color: lightgray;
     background-color: hsl(75, 0%, 20%);
     text-decoration: none;
 
 }
 
-nav a {
+.social-card-links a {
     padding: 1rem 0;
     margin: .5rem 0;
     text-align: center;
+    text-decoration: none;
     border-radius: .5rem;
     color: white;
     transition: background-color 600ms ease-out, color 600ms ease-out;
