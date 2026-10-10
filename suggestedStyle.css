@@ -76,7 +76,7 @@ body {
   gap: 1rem;
 }
 
-.social-card nav a {
+.social-card a {
   display: block;
   padding: 0.75rem;
   border-radius: 0.5rem;
