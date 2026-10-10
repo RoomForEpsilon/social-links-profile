@@ -68,6 +68,7 @@ nav {
     border-radius: .5rem;
     color: white;
     transition: background-color 600ms ease-out, color 600ms ease-out;
+    background-color: hsl(0, 0%, 20%);
 }
 
 nav:last-child {
