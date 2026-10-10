@@ -100,8 +100,10 @@ footer {
     margin-top: 1rem;
 }
 
-nav a:hover,
-nav a:focus-visible {
+.social-card-links a:hover,
+.social-card-links a:focus-visible,
+.attribution a:hover,
+.attribution a:focus-visible {
     background-color:  hsl(75, 94%, 57%);;
     color: hsl(0, 0%, 20%);
 }
