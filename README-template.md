@@ -15,7 +15,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -31,91 +30,55 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/RoomForEpsilon/social-links-profile)
+- Live Site URL: [Live site URL here](https://roomforepsilon.github.io/social-links-profile/)
 
 ## My process
+
+The last project I worked through I used git more extensively because I got a poor score on the project previously.  I felt it that documenting my process was more effort than it was worth, and I feel the same with this project.  It's really just build the page, clean up the code, fix mistakes, and done.  For more complex projects, I think planning it out more and following that planning with git commits would be beneficial.  
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I focused on flexbox for this project.  I feel like I still have things to learn when using flexbox, but I was able to finish this project.  One of my biggest weaknesses is the fear of missing out when it comes to the best way to learn css.  When I struggle a little bit with using flexbox, my mind easily falls into the state of, "I'm not good enough.  I didn't learn flex.  I need to use a different resource to learn it right this time."  While there is value in studying different resources, I learned a lot by reading through Web.dev, but I felt the time I spent wasn't worth just working on this project.  The best thing for me would be to work on projects and look up things I don't know as I go, and in the future tutor other people to get another perspective on learning css from a different source.  I should believe in myself a little more, but it's easy for me to doubt myself. 
 
-To see how you can add code snippets, see below:
+One think I did that I was happy I did was I took the text preset styles from the figma design file, made them classes, and added the specific class to the element I wanted the text to be styled a certain way.  This might seem obvious to do if you have access, but I didn't have a pro account before this project.  Even so, now I think I'm going to think about how components are styled, and which styles are used over and over again (like the font style).  I think doing things this way will help make the code easier to read.  It's a step in the right direction for me.  Here's a code snippet of what I'm talking about.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+  <h1 class="name textPreset1">Jessica Randall</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.textPreset1 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+One final thing for those who don't have pro accounts.  I don't think its necessary to have a pro account to get the most out of FrontEndMentor while working on the introductory module.  In fact, I think it might be better to not have it, because I've heard it argued that making a page a pixel-perfect match isn't as beneficial as making it pass the eyeball test.  Here's a link for those interested https://www.joshwcomeau.com/css/pixel-perfection/ .  I think working from the preview image, not from the figma design file, builds that type of skill.  The reason why I went to the figma design file is I felt text in one part was gray, but ChatGPT insisted it was white.  As one progresses through FrontEndMentor, I suspect it would be beneficial to know how to use figma design files, so it would be beneficial to pay for pro then, but it's not a necessity.  
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+As I said earlier, I'm going to continue to define classes for text styling and assign the different elements to the classes who's style I want them having.  I'm also going to think about how I can use that for other design decisions.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Chasing the Pixel-Perfect Dream](https://www.joshwcomeau.com/css/pixel-perfection/) -- I already posted the link, but I thought it might be helpful to put it here too.
+- [YouTube video about transitions](https://www.youtube.com/watch?v=Nloq6uzF8RQ) - This video helped me understand transitions so I could implement the hover states.`
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+I used ChatGPT to help me review the code that I wrote.  I wouldn't have caught some unused styles without it.  I also talked with it about conceptual questions.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/RoomForEpsilon)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
