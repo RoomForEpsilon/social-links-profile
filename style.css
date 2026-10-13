@@ -43,7 +43,6 @@ body {
 }
 
 .tagline {
-    font-size: calc(1rem * (14/16));
     padding: 1rem;
 }
 
@@ -67,6 +66,7 @@ nav {
     text-decoration: none;
     border-radius: .5rem;
     color: white;
+    display: block;
     transition: background-color 600ms ease-out, color 600ms ease-out;
     background-color: hsl(0, 0%, 20%);
 }
@@ -104,6 +104,17 @@ footer {
 .social-card-links a:focus-visible,
 .attribution a:hover,
 .attribution a:focus-visible {
-    background-color:  hsl(75, 94%, 57%);;
+    background-color:  hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
 }
+
+.social-card-links ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.social-card-links ul li {
+    list-style: none;
+}
+
