@@ -3,8 +3,16 @@
     margin: 0px;
 }
 
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
 body {
-    background-color: hsl(0, 0%, 8%);
+    background-color: var(--Grey-900) ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +29,7 @@ body {
     border-radius: 20px;
     max-width: 355px;
     width: calc(100% * 327/375);
-    background-color: hsl(0,0%, 12%);
+    background-color: var(--Grey-800);
 }
 
 .social-card-header {
@@ -38,7 +46,7 @@ body {
 
 
 .location {
-    color: hsl(75, 94%, 57%);
+    color: var(--Green);
     padding: .5rem;
 }
 
@@ -53,8 +61,8 @@ nav {
 }
 
 .attribution a {
-    color: lightgray;
-    background-color: hsl(75, 0%, 20%);
+    color: white;
+    background-color: var(--Grey-700);
     text-decoration: none;
 
 }
@@ -68,7 +76,7 @@ nav {
     color: white;
     display: block;
     transition: background-color 600ms ease-out, color 600ms ease-out;
-    background-color: hsl(0, 0%, 20%);
+    background-color: var(--Grey-700);
 }
 
 nav:last-child {
@@ -104,8 +112,8 @@ footer {
 .social-card-links a:focus-visible,
 .attribution a:hover,
 .attribution a:focus-visible {
-    background-color:  hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 20%);
+    background-color:  var(--Green);
+    color: var(--Grey-700);
 }
 
 .social-card-links ul {
