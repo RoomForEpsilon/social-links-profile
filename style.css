@@ -26,8 +26,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
+    padding: 1.5rem;
+    border-radius: .75rem;
     max-width: 355px;
+    /* width: min(100% -3rem, 24rem); */
     width: calc(100% * 327/375);
     background-color: var(--Grey-800);
 }
@@ -40,8 +42,9 @@ body {
 
 .card-image {
     border-radius: 50%;
-    width: 35%;
-    margin: 1rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    margin: 0 0 1.5rem;
 }
 
 
@@ -64,7 +67,6 @@ nav {
     color: white;
     background-color: var(--Grey-700);
     text-decoration: none;
-
 }
 
 .social-card-links a {
@@ -79,25 +81,21 @@ nav {
     background-color: var(--Grey-700);
 }
 
-nav:last-child {
-    margin-bottom: 1rem;
-}
-
-.textPreset1 {
+.text-preset-1 {
     font-family: Inter, sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
     line-height: 1.5;
 }
 
-.textPreset2 {
+.text-preset-2 {
     font-family: Inter, sans-serif;
     font-weight: normal;
     font-size: calc(1rem * (14.0/16));
     line-height: 1.5;
 }
 
-.textPreset2Bold {
+.text-preset-2-bold {
     font-family: Inter, sans-serif;
     font-weight: bold;
     font-size: calc(1rem * (14.0/16));
